@@ -104,27 +104,30 @@ body {
     margin-top: 20px;
     transition: background 0.3s ease;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .btn:hover {
     background: #e64a19; 
 }
 .separator {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: gray;
-}
-
-.line {
-  flex-grow: 1;
-  border-top: 1px solid gray;
-}
-
-.separator span {
-  margin: 0 16px; 
-}
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray; /* Text color */
+    margin-top: 10px;
+    margin-bottom: 20px ;
+  }
+  
+  .line {
+    flex-grow: 1;
+    border-top: 1px solid gray; /* Line color and thickness */
+  }
+  
+  .separator span {
+    margin: 0 16px; /* Spacing around 'or' */
+  }
+  
 
 .social-buttons {
     display: flex;

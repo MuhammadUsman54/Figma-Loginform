@@ -5,12 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <div class="main-wrapper">
-        <div class="image">
-            <img src="./assets/image.jpg" alt="">
+    <div class="container">
+        <div class="left-section">
+            <img src="./assets/llogo 1.png" alt="Saylani Logo" class="logo">
+            <h1>Log into your Account</h1>
+            <form class="login">
+                <div class="input-icon">
+                    <i class='bx bxs-envelope'></i>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="input-icon">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Password" required maxlength="8">
+                    <i class="fa-regular fa-eye"></i>
+                </div>
+                <a href="#">Forgot Password?</a>
+                <button class="btn" type="submit">Sign in</button>
+                <div class="social-buttons">
+                    <button class="social-btn"><img src="./assets/google.jpeg" alt="Google Icon">Sign in with
+                        Google</button>
+                    <button class="social-btn"><img src="./assets/facebok.jpg" alt="Facebook Icon">Sign in with
+                        Facebook</button>
+                    <button class="social-btn"><img src="./assets/apple.png" alt="Apple Icon">Sign in with Apple</button>
+                </div>
+                <p id="text">Don't have an account?</p> <a href="#" class="text1">Create Account</a>
+            </form>
         </div>
+        <div class="right-section"></div>
     </div>
 </body>
 </html>

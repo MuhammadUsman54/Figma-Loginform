@@ -109,6 +109,22 @@ body {
 .btn:hover {
     background: #e64a19; 
 }
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+
+.line {
+  flex-grow: 1;
+  border-top: 1px solid gray;
+}
+
+.separator span {
+  margin: 0 16px; 
+}
+
 
 .social-buttons {
     display: flex;
